@@ -1,16 +1,8 @@
 import { Component } from '@angular/core';
 
-import { LoginComponentComponent } from './login-component/login-component.component';
-import { MasterPageComponent } from './master-page/master-page.component';
+import { LoginComponentComponent } from './components/login-component/login-component.component';
+import { MasterPageComponent } from './components/master-page/master-page.component';
 
-
-
-
-// const route : Routes = [
-//   {path:'',component:LoginComponentComponent},
-//   {path:'landing',component:MasterPageComponent},
-
-// ];
 
 @Component({
   selector: 'app-root',

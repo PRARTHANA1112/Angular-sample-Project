@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 
-import { LoginComponentComponent } from './login-component/login-component.component';
-import { MasterPageComponent } from './master-page/master-page.component';
+import { LoginComponentComponent } from './components/login-component/login-component.component';
+import { MasterPageComponent } from './components/master-page/master-page.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponentComponent },
